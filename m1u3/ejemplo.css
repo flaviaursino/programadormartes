@@ -1,0 +1,71 @@
+h2 {
+    color: red;
+    /*comentario en css*/
+    /*color de la fuente*/
+    text-transform: uppercase;
+    /*sirve para podner en mayúscula*/
+    text-align: center;
+    /*alinear textos - centrado*/
+}
+
+h1 {
+    background-color: yellow;
+    /*color de fondo*/
+    font-family: arial;
+    /*cambio familia tipográfica*/
+}
+
+p {
+    color: blue;
+    line-height: 30px;
+    /*separacion entre linea y linea*/
+}
+
+.destacados {
+    color: rgb(213, 101, 80);
+    font-weight: bold;
+    /*negrita*/
+    font-style: italic;
+    /*itálica*/
+}
+
+#caja {
+    background-color: orange;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-left: 100px;
+    box-shadow: 4px 16px 33px -17px rgba(0, 0, 0, 0.75);
+    border-top: 10px double #2e16b4;
+    border-right: 10px dotted #ff6550;
+    border-bottom: 10px double #ff6550;
+    border-left: 10px dotted #ff6550;
+}
+
+#caja h2 {
+    margin-bottom: 50px;
+}
+
+#caja p {
+    font-size: 20px;
+    text-shadow: 25px 4px 11px rgba(0, 0, 0, 0.6);
+}
+
+#nosotros {
+    border-radius: 14px 14px 14px 14px;
+    width: 200px;
+    padding: 20px;
+    background: #ff0000;
+    background: radial-gradient(circle farthest-corner at center center, #ff0000 0%, #ff0477 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #ff0000 0%, #ff0477 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #ff0000 0%, #ff0477 80%);
+    color: white;
+    column-count: 2;
+}
+
+img{
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
